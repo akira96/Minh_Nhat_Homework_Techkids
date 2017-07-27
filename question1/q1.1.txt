@@ -1,0 +1,10 @@
+Question 1 ?
+To check the type of variable i we get syntax "type(i)"
+>>> i = "huy"
+>>> type(i)
+<class 'str'>
+Question 2:
+invalid name: occur when the name of variables have:
+- Space between characters (ex: the number)
+- Number at the beginning (ex : 2e)
+- the same name with the key word (ex: from, import, in,...)
