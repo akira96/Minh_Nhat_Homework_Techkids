@@ -1,4 +1,4 @@
-t = float(input("Temperature?")
+t = float(input("Temperature?"))
 
 if (t >= 27):
     if (t >= 50):
