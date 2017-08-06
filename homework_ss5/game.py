@@ -39,19 +39,22 @@ def map_game(x, y, px, py, gx, gy, bx, by):
                else:
                     print("-", end = " ")
           print()
+          
 map_game(x, y, px, py, gx, gy, bx, by)
 
 #Move
 while (bx != gx or by != gy):
      command = str(input("Your move?"))
-     if command.upper() == "D":
-          if px == 3:
-               print("Cannot go right!")
-          elif py == by and px + 1 == bx:
-               px += 1
-               bx += 1
+     ##UP
+     if command.upper() == "W":
+          if py == 0:
+               print("Cannot go up!")
+          elif px == bx and py - 1 == by:
+               py -= 1
+               by -= 1
           else:
-               px += 1
+               py -= 1
+     ##DOWN
      elif command.upper() == "S":
           if py == 3:
                print("Cannot go down!")
@@ -60,6 +63,7 @@ while (bx != gx or by != gy):
                by += 1
           else:
                py += 1
+     ##LEFT
      elif command.upper() == "A":
           if px == 0:
                print("Cannot go left!")
@@ -68,14 +72,16 @@ while (bx != gx or by != gy):
                bx -= 1
           else:
                px -= 1
-     elif command.upper() == "W":
-          if py == 0:
-               print("Cannot go up!")
-          elif px == bx and py - 1 == by:
-               py -= 1
-               by -= 1
+     ##RIGHT
+     elif command.upper() == "D":
+          if px == 3:
+               print("Cannot go right!")
+          elif py == by and px + 1 == bx:
+               px += 1
+               bx += 1
           else:
-               py -= 1
+               px += 1
+     ##RESET
      elif command.upper() == "R":
           map_game(x, y, px, py, gx, gy, bx, by)
           cmd = input("reset map?(y/n)")
@@ -90,6 +96,7 @@ while (bx != gx or by != gy):
                y = 0
           elif cmd.upper() == "N":
                print()
+               
      else:
           print("Try again!")
      map_game(x, y, px, py, gx, gy, bx, by)
