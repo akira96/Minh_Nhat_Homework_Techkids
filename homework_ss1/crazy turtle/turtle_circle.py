@@ -4,3 +4,5 @@ speed(-1)
 begin_fill()
 circle(100)
 end_fill()
+
+input()
