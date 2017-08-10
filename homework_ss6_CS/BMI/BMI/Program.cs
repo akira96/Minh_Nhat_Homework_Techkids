@@ -7,11 +7,11 @@ namespace BMI
 		public static void Main (string[] args)
 		{
 			Console.Write ("What's your height?(cm) :  ");
-			var h = Convert.ToInt32 (Console.ReadLine());
+			var h = Convert.ToDouble (Console.ReadLine());
 			h = h / 100;
 
 			Console.Write ("What's your weight?(kg) :  ");
-			var w = Convert.ToInt32 (Console.ReadLine());
+			var w = Convert.ToDouble (Console.ReadLine());
 
 			var BMI = w / (h * h);
 			Console.WriteLine ("Your BMI: " + BMI);
