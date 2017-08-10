@@ -1,0 +1,5 @@
+C:\Users\mrnha_000\Documents\Projects\star\star\bin\Debug\star.exe
+C:\Users\mrnha_000\Documents\Projects\star\star\bin\Debug\star.pdb
+C:\Users\mrnha_000\Documents\Projects\star\star\obj\x86\Debug\star.csprojResolveAssemblyReference.cache
+C:\Users\mrnha_000\Documents\Projects\star\star\obj\x86\Debug\star.exe
+C:\Users\mrnha_000\Documents\Projects\star\star\obj\x86\Debug\star.pdb

@@ -1,0 +1,5 @@
+C:\Users\mrnha_000\Documents\Projects\BayMax\BayMax\bin\Debug\BayMax.exe
+C:\Users\mrnha_000\Documents\Projects\BayMax\BayMax\bin\Debug\BayMax.pdb
+C:\Users\mrnha_000\Documents\Projects\BayMax\BayMax\obj\x86\Debug\BayMax.csprojResolveAssemblyReference.cache
+C:\Users\mrnha_000\Documents\Projects\BayMax\BayMax\obj\x86\Debug\BayMax.exe
+C:\Users\mrnha_000\Documents\Projects\BayMax\BayMax\obj\x86\Debug\BayMax.pdb
