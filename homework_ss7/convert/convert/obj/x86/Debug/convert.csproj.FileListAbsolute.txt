@@ -1,0 +1,5 @@
+C:\Users\mrnha_000\Documents\Projects\convert\convert\bin\Debug\convert.exe
+C:\Users\mrnha_000\Documents\Projects\convert\convert\bin\Debug\convert.pdb
+C:\Users\mrnha_000\Documents\Projects\convert\convert\obj\x86\Debug\convert.csprojResolveAssemblyReference.cache
+C:\Users\mrnha_000\Documents\Projects\convert\convert\obj\x86\Debug\convert.exe
+C:\Users\mrnha_000\Documents\Projects\convert\convert\obj\x86\Debug\convert.pdb
