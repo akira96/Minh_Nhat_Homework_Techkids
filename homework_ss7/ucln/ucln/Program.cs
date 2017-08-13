@@ -7,8 +7,9 @@ namespace ucln
 		public static void Main (string[] args)
 		{
 			int i, n1, n2, j, ucln = 1;
-			Console.WriteLine("Tim uoc chung lon nhat trong C#:");
+			Console.WriteLine("Tim uoc chung lon nhat giua 2 so");
 			Console.WriteLine("-----------------------------------");
+            Console.WriteLine("(em van dang nghi cach lam cho N so trong list:( )");
 
 			Console.Write("Nhap so thu nhat: ");
 			n1 = Convert.ToInt32(Console.ReadLine());

@@ -7,7 +7,7 @@ namespace convert
 		public static void Main (string[] args)
 		{
 			int n, i, j, bin = 0, dec;
-			Console.WriteLine ("Chuyen doi thap phan thanh nhi phan trong C#");
+			Console.WriteLine ("Chuyen doi thap phan thanh nhi phan");
 			Console.WriteLine ("--------------------------------------------");
 			Console.Write ("Nhap mot so thap phan bat ky: ");
 			n = Convert.ToInt32 (Console.ReadLine());
