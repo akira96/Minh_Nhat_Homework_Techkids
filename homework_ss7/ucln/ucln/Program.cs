@@ -6,11 +6,9 @@ namespace ucln
 	{
 		public static void Main (string[] args)
 		{
-			int i, n1, n2, j, uscln = 1;
-			Console.Write("\n");
-			Console.Write("Tim uoc so chung lon nhat trong C#:\n");
-			Console.Write("-----------------------------------");
-			Console.Write("\n\n");
+			int i, n1, n2, j, ucln = 1;
+			Console.WriteLine("Tim uoc chung lon nhat trong C#:");
+			Console.WriteLine("-----------------------------------");
 
 			Console.Write("Nhap so thu nhat: ");
 			n1 = Convert.ToInt32(Console.ReadLine());
@@ -21,12 +19,10 @@ namespace ucln
 			{
 				if (n1 % i == 0 && n2 % i == 0)
 				{
-					uscln = i;
+					ucln = i;
 				}
 			}
-			Console.Write("\nUSCLN cua {0} va {1} la: {2}\n\n", n1, n2, uscln);
-
-			Console.ReadKey();
+			Console.WriteLine("UCLN cua {0} va {1} la: {2}", n1, n2, ucln);
 		}
 	}
 }
